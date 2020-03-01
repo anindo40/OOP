@@ -20,5 +20,11 @@ public class Main {
         else{
             System.out.println("nope");
         }
+        box newB = new box(b2);
+        if(b2.isEqual(newB)) {
+            System.out.println("new same");
+        }
+        else
+            System.out.println("new no");
     }
 }
